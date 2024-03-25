@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import './authstyle.css';
-import useSignup from '../hooks/useSignup';
-import useLogin from '../context/useLogin';
+
 import { Navigate } from 'react-router-dom';
 
 
@@ -39,7 +38,7 @@ const loginHandler=(event)=>{
   console.log(loginData)
 }
 
-const {loading,signup}=useSignup()
+
 const handleSubmit=async (event)=>{
   event.preventDefault();
   console.log("in handle Submit")
@@ -47,7 +46,6 @@ const handleSubmit=async (event)=>{
 
 }
 
-const {login}=useLogin();
 const handleLogin=async (event)=>{
   event.preventDefault();
   console.log("in handle login");

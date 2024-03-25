@@ -1,5 +1,22 @@
 # React + Vite
 
+## before run the react app type 
+
+npm install 
+
+
+## start type 
+
+npm run start
+
+
+## get this signup or login code
+
+check out the compenent folder ,Auth.jsx,auth.css
+
+
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

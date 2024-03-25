@@ -14,12 +14,8 @@ const {authUser}=userAuthContext();
         
 
         <Routes>
-
-          <Route path='/' element={"hello word"} />
-          <Route path='/api/auth/login' element={<Auth />} />
-          <Route path='/api/auth/signup' element={<Auth />} />
-          <Route path='/api/auth/chat' element={authUser?<Chat />:<Navigate to="/api/auth/login"/>}/>
-         
+          <Route path='/' element={<Auth />} />
+          
 
         </Routes>
       
