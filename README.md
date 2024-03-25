@@ -12,7 +12,7 @@ npm run start
 
 ## get this signup or login code
 
-check out the compenent folder ,Auth.jsx,auth.css
+BROWSE src/Auth.jsx,auth.css
 
 
 
